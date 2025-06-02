@@ -12,14 +12,13 @@ using namespace std;
 int main() {
     int opcionMenu;
     bool salir = false;
+    float contadorMuertes = 0;
     
     while (!salir) {
         // Variables reiniciadas cada nueva partida
         string respuesta;
         float tiempoRestante = 10; // Tiempo inicial
-        float contadorMuertes = 0;
         bool escape = false;
-        bool tercerFinal = false;
 
         // Menú principal
         cout << R"(                                                                                                    
